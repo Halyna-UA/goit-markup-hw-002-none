@@ -1,0 +1,71 @@
+:root {
+  --primery-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primery-br-color: #fff;
+}
+
+body {
+  color: var(--primery-text-color);
+  background: var(--primery-br-color);
+  font-family: Roboto;
+}
+.list {
+  list-style: none;
+}
+
+/* тел мейл основний текст параграфа #757575*/
+
+/* заголовки #212121*/
+
+/* білий #FFFFFF*/
+
+/* фон колір героя і футера #2F303A*/
+/*фон секції чим ми займаємось   #E5E5E5*/
+
+/* фон секції чим ми займаємось #F5F4FA*/
+.logo {
+  color: var(--accent-color);
+  color: #000000;
+}
+/* навігація в хедері*/
+.site-nav.link.current {
+  color: #212121;
+  color: var(--accent-color);
+  list-style: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .list:hover,
+.auth-nav .list:focus {
+  color: #2196f3;
+}
+
+/*Основний контейнер*/
+
+.hero-title.button {
+  color: var(--accent-color);
+}
+
+/* секції h2.section-title {
+  color: #212121;
+}*/
+
+/*секція підгерой*/
+
+.section-items.item,
+.team-title.item {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1, 142;
+  list-style: none;
+}
+.section-items.text,
+.team-title.text {
+  color: var(--primery-text-color);
+  font-family: Roboto;
+  line-height: 1, 714;
+}
