@@ -32,10 +32,12 @@ body {
   color: var(--primery-text-color);
   list-style: none;
 }
+/* наведення і фокус*/
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+/*підсвічування*/
 .site-nav .link .current {
   color: var(--accent-color);
 }
