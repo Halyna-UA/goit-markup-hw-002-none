@@ -3,69 +3,114 @@
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
   --primery-br-color: #fff;
+  --primery-nav-color: rgba(33, 33, 33, 1);
 }
 
 body {
+  background: #e5e5e5;
   color: var(--primery-text-color);
-  background: var(--primery-br-color);
   font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
 }
-.list {
-  list-style: none;
-}
+/*хедер*/
 
-/* тел мейл основний текст параграфа #757575*/
-
-/* заголовки #212121*/
-
-/* білий #FFFFFF*/
-
-/* фон колір героя і футера #2F303A*/
-/*фон секції чим ми займаємось   #E5E5E5*/
-
-/* фон секції чим ми займаємось #F5F4FA*/
 .logo {
-  color: var(--accent-color);
-  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  color: var(--accent-color) var(--title-text-color);
 }
-/* навігація в хедері*/
-.site-nav.link.current {
-  color: #212121;
+.logo:hover {
   color: var(--accent-color);
+}
+/*навігація хедера*/
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  color: var(--primery-text-color);
   list-style: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.auth-nav .list:hover,
-.auth-nav .list:focus {
-  color: #2196f3;
-}
-
-/*Основний контейнер*/
-
-.hero-title.button {
+.site-nav .link .current {
   color: var(--accent-color);
 }
 
-/* секції h2.section-title {
-  color: #212121;
-}*/
-
-/*секція підгерой*/
-
-.section-items.item,
-.team-title.item {
-  color: var(--title-text-color);
-  font-family: Roboto;
-  font-weight: bold;
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1, 142;
+  color: var(--primery-text-color);
   list-style: none;
 }
-.section-items.text,
-.team-title.text {
-  color: var(--primery-text-color);
-  font-family: Roboto;
-  line-height: 1, 714;
+.auth-nav .list:hover,
+.auth-nav .list:focus {
+  color: var(--accent-color);
 }
+
+/*основна частина сторінки*/
+/*Блок герой*/
+
+.hero.button {
+  color: var(--accent-color);
+  text-decoration-color: var(--primery-br-color);
+}
+/*секція під герой*/
+
+.section {
+  background: #e5e5e5;
+}
+.section-list {
+  list-style: none;
+}
+.section-list .item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 142;
+  color: var(--title-text-color);
+}
+
+.section-list .text {
+  font-size: 14px;
+  line-height: 1, 714;
+  color: var(--primery-text-color);
+}
+
+/* чим ми займаємося*/
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 166;
+  color: var(--title-text-color);
+}
+
+/*наша команда*/
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 166;
+  color: var(--title-text-color);
+}
+.section-list .item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 187;
+  color: var(--title-text-color);
+}
+.section-list .text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 187;
+  color: var(--primery-text-color);
+}
+
+/*сторінка портфоліо*/
